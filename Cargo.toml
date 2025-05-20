@@ -1,0 +1,13 @@
+[package]
+name = "memoized"
+version = "0.1.0"
+edition = "2024"
+description = "Function memoization"
+authors = ["Saúl Valdelvira <saul@saulv.es>"]
+license = "GPL-3.0-only"
+readme = "README"
+repository = "https://github.com/saulvaldelvira/memoized"
+
+[dev-dependencies]
+num = { version = "0.4.3", features = ["num-bigint"] }
+
