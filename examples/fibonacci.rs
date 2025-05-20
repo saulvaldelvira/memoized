@@ -1,5 +1,5 @@
 use memoized::{memoize_rec, Memoized};
-use num::BigUint;
+use num_bigint::BigUint;
 
 pub fn main() {
     let mut args = std::env::args().skip(1);
